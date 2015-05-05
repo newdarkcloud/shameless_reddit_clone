@@ -1,0 +1,230 @@
+Thu Apr 16 20:03:54.733 
+Thu Apr 16 20:03:54.734 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+Thu Apr 16 20:03:54.734 
+Thu Apr 16 20:03:54.752 [initandlisten] MongoDB starting : pid=5406 port=26329 dbpath=/var/www/html/474/leddit/database 32-bit host=kwest-brix
+Thu Apr 16 20:03:54.752 [initandlisten] 
+Thu Apr 16 20:03:54.752 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Thu Apr 16 20:03:54.752 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Thu Apr 16 20:03:54.752 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+Thu Apr 16 20:03:54.752 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Thu Apr 16 20:03:54.752 [initandlisten] 
+Thu Apr 16 20:03:54.752 [initandlisten] db version v2.4.9
+Thu Apr 16 20:03:54.753 [initandlisten] git version: nogitversion
+Thu Apr 16 20:03:54.753 [initandlisten] build info: Linux comet 3.2.0-58-generic #88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013 i686 BOOST_LIB_VERSION=1_54
+Thu Apr 16 20:03:54.753 [initandlisten] allocator: tcmalloc
+Thu Apr 16 20:03:54.753 [initandlisten] options: { dbpath: "/var/www/html/474/leddit/database", port: 26329 }
+Thu Apr 16 20:03:54.817 [websvr] admin web console waiting for connections on port 27329
+Thu Apr 16 20:03:54.818 [initandlisten] waiting for connections on port 26329
+Tue Apr 21 08:24:51.168 [initandlisten] connection accepted from 127.0.0.1:42328 #1 (1 connection now open)
+Tue Apr 21 08:24:51.168 [initandlisten] connection accepted from 127.0.0.1:42329 #2 (2 connections now open)
+Tue Apr 21 08:24:51.168 [initandlisten] connection accepted from 127.0.0.1:42330 #3 (3 connections now open)
+Tue Apr 21 08:24:51.168 [initandlisten] connection accepted from 127.0.0.1:42331 #4 (4 connections now open)
+Tue Apr 21 08:24:51.168 [initandlisten] connection accepted from 127.0.0.1:42332 #5 (5 connections now open)
+Tue Apr 21 09:15:29.881 [conn1] end connection 127.0.0.1:42328 (4 connections now open)
+Tue Apr 21 09:15:29.882 [conn2] end connection 127.0.0.1:42329 (3 connections now open)
+Tue Apr 21 09:15:29.882 [conn3] end connection 127.0.0.1:42330 (2 connections now open)
+Tue Apr 21 09:15:29.883 [conn4] end connection 127.0.0.1:42331 (1 connection now open)
+Tue Apr 21 09:15:29.883 [conn5] end connection 127.0.0.1:42332 (1 connection now open)
+Thu Apr 23 08:15:14.957 [initandlisten] connection accepted from 127.0.0.1:48053 #6 (1 connection now open)
+Thu Apr 23 08:15:14.957 [initandlisten] connection accepted from 127.0.0.1:48054 #7 (2 connections now open)
+Thu Apr 23 08:15:14.957 [initandlisten] connection accepted from 127.0.0.1:48055 #8 (3 connections now open)
+Thu Apr 23 08:15:14.957 [initandlisten] connection accepted from 127.0.0.1:48056 #9 (4 connections now open)
+Thu Apr 23 08:15:14.958 [initandlisten] connection accepted from 127.0.0.1:48057 #10 (5 connections now open)
+Thu Apr 23 09:14:53.967 [conn6] end connection 127.0.0.1:48053 (4 connections now open)
+Thu Apr 23 09:14:53.967 [conn7] end connection 127.0.0.1:48054 (3 connections now open)
+Thu Apr 23 09:14:53.967 [conn9] end connection 127.0.0.1:48056 (3 connections now open)
+Thu Apr 23 09:14:53.968 [conn8] end connection 127.0.0.1:48055 (1 connection now open)
+Thu Apr 23 09:14:53.968 [conn10] end connection 127.0.0.1:48057 (0 connections now open)
+Tue Apr 28 08:05:15.562 [initandlisten] connection accepted from 127.0.0.1:50184 #11 (1 connection now open)
+Tue Apr 28 08:05:15.562 [initandlisten] connection accepted from 127.0.0.1:50185 #12 (2 connections now open)
+Tue Apr 28 08:05:15.563 [initandlisten] connection accepted from 127.0.0.1:50186 #13 (3 connections now open)
+Tue Apr 28 08:05:15.563 [initandlisten] connection accepted from 127.0.0.1:50187 #14 (4 connections now open)
+Tue Apr 28 08:05:15.563 [initandlisten] connection accepted from 127.0.0.1:50188 #15 (5 connections now open)
+Tue Apr 28 08:16:52.376 [conn11] end connection 127.0.0.1:50184 (4 connections now open)
+Tue Apr 28 08:16:52.376 [conn15] end connection 127.0.0.1:50188 (4 connections now open)
+Tue Apr 28 08:16:52.376 [conn12] end connection 127.0.0.1:50185 (2 connections now open)
+Tue Apr 28 08:16:52.376 [conn13] end connection 127.0.0.1:50186 (2 connections now open)
+Tue Apr 28 08:16:52.376 [conn14] end connection 127.0.0.1:50187 (2 connections now open)
+Tue Apr 28 08:16:57.801 [initandlisten] connection accepted from 127.0.0.1:50677 #16 (1 connection now open)
+Tue Apr 28 08:16:57.802 [initandlisten] connection accepted from 127.0.0.1:50678 #17 (2 connections now open)
+Tue Apr 28 08:16:57.802 [initandlisten] connection accepted from 127.0.0.1:50679 #18 (3 connections now open)
+Tue Apr 28 08:16:57.802 [initandlisten] connection accepted from 127.0.0.1:50680 #19 (4 connections now open)
+Tue Apr 28 08:16:57.802 [initandlisten] connection accepted from 127.0.0.1:50681 #20 (5 connections now open)
+Tue Apr 28 08:17:15.650 [conn16] end connection 127.0.0.1:50677 (4 connections now open)
+Tue Apr 28 08:17:15.651 [conn18] end connection 127.0.0.1:50679 (3 connections now open)
+Tue Apr 28 08:17:15.652 [conn19] end connection 127.0.0.1:50680 (2 connections now open)
+Tue Apr 28 08:17:15.652 [conn20] end connection 127.0.0.1:50681 (1 connection now open)
+Tue Apr 28 08:17:15.653 [conn17] end connection 127.0.0.1:50678 (1 connection now open)
+Tue Apr 28 08:17:19.391 [initandlisten] connection accepted from 127.0.0.1:50698 #21 (1 connection now open)
+Tue Apr 28 08:17:19.391 [initandlisten] connection accepted from 127.0.0.1:50699 #22 (2 connections now open)
+Tue Apr 28 08:17:19.391 [initandlisten] connection accepted from 127.0.0.1:50700 #23 (3 connections now open)
+Tue Apr 28 08:17:19.391 [initandlisten] connection accepted from 127.0.0.1:50701 #24 (4 connections now open)
+Tue Apr 28 08:17:19.391 [initandlisten] connection accepted from 127.0.0.1:50702 #25 (5 connections now open)
+Tue Apr 28 08:17:22.602 [conn21] end connection 127.0.0.1:50698 (4 connections now open)
+Tue Apr 28 08:17:22.603 [conn25] end connection 127.0.0.1:50702 (3 connections now open)
+Tue Apr 28 08:17:22.604 [conn22] end connection 127.0.0.1:50699 (2 connections now open)
+Tue Apr 28 08:17:22.604 [conn24] end connection 127.0.0.1:50701 (2 connections now open)
+Tue Apr 28 08:17:22.604 [conn23] end connection 127.0.0.1:50700 (0 connections now open)
+Tue Apr 28 08:17:26.507 [initandlisten] connection accepted from 127.0.0.1:50709 #26 (1 connection now open)
+Tue Apr 28 08:17:26.507 [initandlisten] connection accepted from 127.0.0.1:50710 #27 (2 connections now open)
+Tue Apr 28 08:17:26.507 [initandlisten] connection accepted from 127.0.0.1:50711 #28 (3 connections now open)
+Tue Apr 28 08:17:26.507 [initandlisten] connection accepted from 127.0.0.1:50712 #29 (4 connections now open)
+Tue Apr 28 08:17:26.507 [initandlisten] connection accepted from 127.0.0.1:50713 #30 (5 connections now open)
+Tue Apr 28 08:20:49.786 [conn26] end connection 127.0.0.1:50709 (4 connections now open)
+Tue Apr 28 08:20:49.786 [conn27] end connection 127.0.0.1:50710 (3 connections now open)
+Tue Apr 28 08:20:49.787 [conn28] end connection 127.0.0.1:50711 (2 connections now open)
+Tue Apr 28 08:20:49.787 [conn30] end connection 127.0.0.1:50713 (1 connection now open)
+Tue Apr 28 08:20:49.787 [conn29] end connection 127.0.0.1:50712 (1 connection now open)
+Tue Apr 28 08:20:56.433 [initandlisten] connection accepted from 127.0.0.1:50855 #31 (1 connection now open)
+Tue Apr 28 08:20:56.433 [initandlisten] connection accepted from 127.0.0.1:50856 #32 (2 connections now open)
+Tue Apr 28 08:20:56.434 [initandlisten] connection accepted from 127.0.0.1:50857 #33 (3 connections now open)
+Tue Apr 28 08:20:56.434 [initandlisten] connection accepted from 127.0.0.1:50858 #34 (4 connections now open)
+Tue Apr 28 08:20:56.436 [initandlisten] connection accepted from 127.0.0.1:50859 #35 (5 connections now open)
+Tue Apr 28 08:21:57.706 [conn32] end connection 127.0.0.1:50856 (4 connections now open)
+Tue Apr 28 08:21:57.707 [conn31] end connection 127.0.0.1:50855 (3 connections now open)
+Tue Apr 28 08:21:57.708 [conn35] end connection 127.0.0.1:50859 (2 connections now open)
+Tue Apr 28 08:21:57.708 [conn34] end connection 127.0.0.1:50858 (1 connection now open)
+Tue Apr 28 08:21:57.709 [conn33] end connection 127.0.0.1:50857 (0 connections now open)
+Tue Apr 28 08:21:59.111 [initandlisten] connection accepted from 127.0.0.1:50904 #36 (1 connection now open)
+Tue Apr 28 08:21:59.111 [initandlisten] connection accepted from 127.0.0.1:50905 #37 (2 connections now open)
+Tue Apr 28 08:21:59.111 [initandlisten] connection accepted from 127.0.0.1:50906 #38 (3 connections now open)
+Tue Apr 28 08:21:59.111 [initandlisten] connection accepted from 127.0.0.1:50907 #39 (4 connections now open)
+Tue Apr 28 08:21:59.111 [initandlisten] connection accepted from 127.0.0.1:50908 #40 (5 connections now open)
+Tue Apr 28 08:22:13.159 [conn36] end connection 127.0.0.1:50904 (4 connections now open)
+Tue Apr 28 08:22:13.159 [conn37] end connection 127.0.0.1:50905 (3 connections now open)
+Tue Apr 28 08:22:13.159 [conn40] end connection 127.0.0.1:50908 (2 connections now open)
+Tue Apr 28 08:22:13.159 [conn39] end connection 127.0.0.1:50907 (1 connection now open)
+Tue Apr 28 08:22:13.159 [conn38] end connection 127.0.0.1:50906 (1 connection now open)
+Tue Apr 28 08:22:23.963 [initandlisten] connection accepted from 127.0.0.1:50923 #41 (1 connection now open)
+Tue Apr 28 08:22:23.963 [initandlisten] connection accepted from 127.0.0.1:50924 #42 (2 connections now open)
+Tue Apr 28 08:22:23.963 [initandlisten] connection accepted from 127.0.0.1:50925 #43 (3 connections now open)
+Tue Apr 28 08:22:23.963 [initandlisten] connection accepted from 127.0.0.1:50926 #44 (4 connections now open)
+Tue Apr 28 08:22:23.964 [initandlisten] connection accepted from 127.0.0.1:50927 #45 (5 connections now open)
+Tue Apr 28 08:31:15.838 [initandlisten] connection accepted from 127.0.0.1:51285 #46 (6 connections now open)
+Tue Apr 28 08:32:25.318 [conn46] end connection 127.0.0.1:51285 (5 connections now open)
+Tue Apr 28 08:33:47.914 [conn41] end connection 127.0.0.1:50923 (4 connections now open)
+Tue Apr 28 08:33:47.915 [conn43] end connection 127.0.0.1:50925 (4 connections now open)
+Tue Apr 28 08:33:47.915 [conn42] end connection 127.0.0.1:50924 (2 connections now open)
+Tue Apr 28 08:33:47.916 [conn44] end connection 127.0.0.1:50926 (1 connection now open)
+Tue Apr 28 08:33:47.917 [conn45] end connection 127.0.0.1:50927 (0 connections now open)
+Tue Apr 28 08:33:49.482 [initandlisten] connection accepted from 127.0.0.1:51385 #47 (1 connection now open)
+Tue Apr 28 08:33:49.482 [initandlisten] connection accepted from 127.0.0.1:51386 #48 (2 connections now open)
+Tue Apr 28 08:33:49.482 [initandlisten] connection accepted from 127.0.0.1:51387 #49 (3 connections now open)
+Tue Apr 28 08:33:49.482 [initandlisten] connection accepted from 127.0.0.1:51388 #50 (4 connections now open)
+Tue Apr 28 08:33:49.484 [initandlisten] connection accepted from 127.0.0.1:51389 #51 (5 connections now open)
+Tue Apr 28 08:34:31.714 [conn47] end connection 127.0.0.1:51385 (4 connections now open)
+Tue Apr 28 08:34:31.715 [conn48] end connection 127.0.0.1:51386 (3 connections now open)
+Tue Apr 28 08:34:31.715 [conn49] end connection 127.0.0.1:51387 (2 connections now open)
+Tue Apr 28 08:34:31.715 [conn50] end connection 127.0.0.1:51388 (2 connections now open)
+Tue Apr 28 08:34:31.716 [conn51] end connection 127.0.0.1:51389 (1 connection now open)
+Tue Apr 28 08:34:33.095 [initandlisten] connection accepted from 127.0.0.1:51419 #52 (1 connection now open)
+Tue Apr 28 08:34:33.095 [initandlisten] connection accepted from 127.0.0.1:51420 #53 (2 connections now open)
+Tue Apr 28 08:34:33.095 [initandlisten] connection accepted from 127.0.0.1:51421 #54 (3 connections now open)
+Tue Apr 28 08:34:33.095 [initandlisten] connection accepted from 127.0.0.1:51422 #55 (4 connections now open)
+Tue Apr 28 08:34:33.095 [initandlisten] connection accepted from 127.0.0.1:51423 #56 (5 connections now open)
+Tue Apr 28 08:35:20.076 [conn52] end connection 127.0.0.1:51419 (4 connections now open)
+Tue Apr 28 08:35:20.077 [conn54] end connection 127.0.0.1:51421 (4 connections now open)
+Tue Apr 28 08:35:20.077 [conn55] end connection 127.0.0.1:51422 (2 connections now open)
+Tue Apr 28 08:35:20.078 [conn53] end connection 127.0.0.1:51420 (1 connection now open)
+Tue Apr 28 08:35:20.078 [conn56] end connection 127.0.0.1:51423 (0 connections now open)
+Tue Apr 28 08:35:21.695 [initandlisten] connection accepted from 127.0.0.1:51458 #57 (1 connection now open)
+Tue Apr 28 08:35:21.695 [initandlisten] connection accepted from 127.0.0.1:51459 #58 (2 connections now open)
+Tue Apr 28 08:35:21.695 [initandlisten] connection accepted from 127.0.0.1:51460 #59 (3 connections now open)
+Tue Apr 28 08:35:21.695 [initandlisten] connection accepted from 127.0.0.1:51461 #60 (4 connections now open)
+Tue Apr 28 08:35:21.695 [initandlisten] connection accepted from 127.0.0.1:51462 #61 (5 connections now open)
+Tue Apr 28 08:37:24.461 [conn57] end connection 127.0.0.1:51458 (4 connections now open)
+Tue Apr 28 08:37:24.461 [conn59] end connection 127.0.0.1:51460 (4 connections now open)
+Tue Apr 28 08:37:24.461 [conn58] end connection 127.0.0.1:51459 (4 connections now open)
+Tue Apr 28 08:37:24.461 [conn60] end connection 127.0.0.1:51461 (1 connection now open)
+Tue Apr 28 08:37:24.461 [conn61] end connection 127.0.0.1:51462 (0 connections now open)
+Tue Apr 28 08:37:25.841 [initandlisten] connection accepted from 127.0.0.1:51541 #62 (1 connection now open)
+Tue Apr 28 08:37:25.841 [initandlisten] connection accepted from 127.0.0.1:51542 #63 (2 connections now open)
+Tue Apr 28 08:37:25.842 [initandlisten] connection accepted from 127.0.0.1:51543 #64 (3 connections now open)
+Tue Apr 28 08:37:25.842 [initandlisten] connection accepted from 127.0.0.1:51544 #65 (4 connections now open)
+Tue Apr 28 08:37:25.842 [initandlisten] connection accepted from 127.0.0.1:51545 #66 (5 connections now open)
+Tue Apr 28 08:37:58.194 [conn63] end connection 127.0.0.1:51542 (4 connections now open)
+Tue Apr 28 08:37:58.194 [conn62] end connection 127.0.0.1:51541 (4 connections now open)
+Tue Apr 28 08:37:58.195 [conn64] end connection 127.0.0.1:51543 (2 connections now open)
+Tue Apr 28 08:37:58.196 [conn65] end connection 127.0.0.1:51544 (1 connection now open)
+Tue Apr 28 08:37:58.197 [conn66] end connection 127.0.0.1:51545 (0 connections now open)
+Tue Apr 28 08:37:59.807 [initandlisten] connection accepted from 127.0.0.1:51570 #67 (1 connection now open)
+Tue Apr 28 08:37:59.807 [initandlisten] connection accepted from 127.0.0.1:51571 #68 (2 connections now open)
+Tue Apr 28 08:37:59.807 [initandlisten] connection accepted from 127.0.0.1:51572 #69 (3 connections now open)
+Tue Apr 28 08:37:59.807 [initandlisten] connection accepted from 127.0.0.1:51573 #70 (4 connections now open)
+Tue Apr 28 08:37:59.808 [initandlisten] connection accepted from 127.0.0.1:51574 #71 (5 connections now open)
+Tue Apr 28 08:38:20.922 [conn67] end connection 127.0.0.1:51570 (4 connections now open)
+Tue Apr 28 08:38:20.922 [conn69] end connection 127.0.0.1:51572 (4 connections now open)
+Tue Apr 28 08:38:20.922 [conn70] end connection 127.0.0.1:51573 (2 connections now open)
+Tue Apr 28 08:38:20.922 [conn68] end connection 127.0.0.1:51571 (2 connections now open)
+Tue Apr 28 08:38:20.923 [conn71] end connection 127.0.0.1:51574 (0 connections now open)
+Tue Apr 28 08:38:22.522 [initandlisten] connection accepted from 127.0.0.1:51590 #72 (1 connection now open)
+Tue Apr 28 08:38:22.522 [initandlisten] connection accepted from 127.0.0.1:51591 #73 (2 connections now open)
+Tue Apr 28 08:38:22.522 [initandlisten] connection accepted from 127.0.0.1:51592 #74 (3 connections now open)
+Tue Apr 28 08:38:22.522 [initandlisten] connection accepted from 127.0.0.1:51593 #75 (4 connections now open)
+Tue Apr 28 08:38:22.523 [initandlisten] connection accepted from 127.0.0.1:51594 #76 (5 connections now open)
+Tue Apr 28 08:58:49.393 [conn73] end connection 127.0.0.1:51591 (4 connections now open)
+Tue Apr 28 08:58:49.393 [conn72] end connection 127.0.0.1:51590 (4 connections now open)
+Tue Apr 28 08:58:49.394 [conn74] end connection 127.0.0.1:51592 (2 connections now open)
+Tue Apr 28 08:58:49.395 [conn75] end connection 127.0.0.1:51593 (1 connection now open)
+Tue Apr 28 08:58:49.395 [conn76] end connection 127.0.0.1:51594 (1 connection now open)
+Tue Apr 28 08:59:14.985 [initandlisten] connection accepted from 127.0.0.1:52446 #77 (1 connection now open)
+Tue Apr 28 08:59:14.985 [initandlisten] connection accepted from 127.0.0.1:52447 #78 (2 connections now open)
+Tue Apr 28 08:59:14.985 [initandlisten] connection accepted from 127.0.0.1:52448 #79 (3 connections now open)
+Tue Apr 28 08:59:14.985 [initandlisten] connection accepted from 127.0.0.1:52449 #80 (4 connections now open)
+Tue Apr 28 08:59:14.985 [initandlisten] connection accepted from 127.0.0.1:52450 #81 (5 connections now open)
+Tue Apr 28 09:08:59.568 [PeriodicTask::Runner] task: WriteBackManager::cleaner took: 13ms
+Tue Apr 28 09:18:27.324 [conn77] end connection 127.0.0.1:52446 (4 connections now open)
+Tue Apr 28 09:18:27.324 [conn79] end connection 127.0.0.1:52448 (4 connections now open)
+Tue Apr 28 09:18:27.325 [conn80] end connection 127.0.0.1:52449 (4 connections now open)
+Tue Apr 28 09:18:27.325 [conn81] end connection 127.0.0.1:52450 (4 connections now open)
+Tue Apr 28 09:18:27.325 [conn78] end connection 127.0.0.1:52447 (4 connections now open)
+Tue Apr 28 09:18:39.337 [initandlisten] connection accepted from 127.0.0.1:53227 #82 (1 connection now open)
+Tue Apr 28 09:18:39.337 [initandlisten] connection accepted from 127.0.0.1:53228 #83 (2 connections now open)
+Tue Apr 28 09:18:39.338 [initandlisten] connection accepted from 127.0.0.1:53229 #84 (3 connections now open)
+Tue Apr 28 09:18:39.338 [initandlisten] connection accepted from 127.0.0.1:53230 #85 (4 connections now open)
+Tue Apr 28 09:18:39.338 [initandlisten] connection accepted from 127.0.0.1:53231 #86 (5 connections now open)
+Tue Apr 28 09:35:45.548 [conn82] end connection 127.0.0.1:53227 (4 connections now open)
+Tue Apr 28 09:35:45.548 [conn85] end connection 127.0.0.1:53230 (4 connections now open)
+Tue Apr 28 09:35:45.548 [conn84] end connection 127.0.0.1:53229 (2 connections now open)
+Tue Apr 28 09:35:45.548 [conn83] end connection 127.0.0.1:53228 (1 connection now open)
+Tue Apr 28 09:35:45.548 [conn86] end connection 127.0.0.1:53231 (0 connections now open)
+Tue Apr 28 09:36:49.281 [initandlisten] connection accepted from 127.0.0.1:53963 #87 (1 connection now open)
+Tue Apr 28 09:36:49.281 [initandlisten] connection accepted from 127.0.0.1:53964 #88 (2 connections now open)
+Tue Apr 28 09:36:49.281 [initandlisten] connection accepted from 127.0.0.1:53965 #89 (3 connections now open)
+Tue Apr 28 09:36:49.281 [initandlisten] connection accepted from 127.0.0.1:53966 #90 (4 connections now open)
+Tue Apr 28 09:36:49.281 [initandlisten] connection accepted from 127.0.0.1:53967 #91 (5 connections now open)
+Wed Apr 29 19:47:35.105 [TTLMonitor] query local.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:0 keyUpdates:0 locks(micros) r:680073 nreturned:0 reslen:20 680ms
+Wed Apr 29 19:48:09.538 [TTLMonitor] query test.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:2 keyUpdates:0 locks(micros) r:34432947 nreturned:0 reslen:20 34432ms
+Wed Apr 29 19:49:19.088 [PeriodicTask::Runner] task: DBConnectionPool-cleaner took: 1324ms
+Wed Apr 29 19:49:21.963 [PeriodicTask::Runner] task: WriteBackManager::cleaner took: 1746ms
+Wed Apr 29 19:49:35.564 [TTLMonitor] query local.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:0 keyUpdates:0 locks(micros) r:5980170 nreturned:0 reslen:20 5933ms
+Wed Apr 29 19:49:43.187 [TTLMonitor] query test.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:2 keyUpdates:0 locks(micros) r:7622760 nreturned:0 reslen:20 7622ms
+Wed Apr 29 19:50:51.544 [TTLMonitor] query test.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:2 keyUpdates:0 locks(micros) r:8353087 nreturned:0 reslen:20 8353ms
+Wed Apr 29 23:34:34.551 [PeriodicTask::Runner] task: WriteBackManager::cleaner took: 1498ms
+Wed Apr 29 23:34:34.707 [DataFileSync] flushing mmaps took 14794ms  for 4 files
+Wed Apr 29 23:34:36.433 [TTLMonitor] query test.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:2 keyUpdates:0 locks(micros) r:37705581 nreturned:0 reslen:20 37705ms
+Wed Apr 29 23:35:45.116 [PeriodicTask::Runner] task: DBConnectionPool-cleaner took: 181ms
+Wed Apr 29 23:35:54.927 [TTLMonitor] query test.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:2 keyUpdates:0 locks(micros) r:9806891 nreturned:0 reslen:20 9806ms
+Wed Apr 29 23:36:47.791 [PeriodicTask::Runner] task: DBConnectionPool-cleaner took: 1239ms
+Wed Apr 29 23:37:10.837 [TTLMonitor] query test.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:2 keyUpdates:0 locks(micros) r:7356522 nreturned:0 reslen:20 7356ms
+Wed Apr 29 23:37:55.932 [PeriodicTask::Runner] task: DBConnectionPool-cleaner took: 1271ms
+Wed Apr 29 23:38:25.143 [TTLMonitor] query test.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:2 keyUpdates:0 locks(micros) r:7374642 nreturned:0 reslen:20 7374ms
+Wed Apr 29 23:38:59.088 [PeriodicTask::Runner] task: DBConnectionPool-cleaner took: 1109ms
+Wed Apr 29 23:39:00.379 [PeriodicTask::Runner] task: WriteBackManager::cleaner took: 1275ms
+Wed Apr 29 23:39:32.723 [TTLMonitor] query test.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:2 keyUpdates:0 locks(micros) r:6090589 nreturned:0 reslen:20 6090ms
+Sat May  2 14:23:52.593 [TTLMonitor] query local.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:0 keyUpdates:0 locks(micros) r:8328753 nreturned:0 reslen:20 8328ms
+Sat May  2 14:24:20.830 [TTLMonitor] query test.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:2 keyUpdates:0 locks(micros) r:20690458 nreturned:0 reslen:20 20690ms
+Sat May  2 14:26:22.440 [PeriodicTask::Runner] task: DBConnectionPool-cleaner took: 1554ms
+Sat May  2 14:26:22.399 [TTLMonitor] query test.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:2 keyUpdates:0 locks(micros) r:9978893 nreturned:0 reslen:20 9978ms
+Sat May  2 14:28:22.877 [TTLMonitor] query test.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:2 keyUpdates:0 locks(micros) r:55065929 nreturned:0 reslen:20 55065ms
+Sat May  2 14:29:50.334 [TTLMonitor] query test.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:2 keyUpdates:0 locks(micros) r:16813653 nreturned:0 reslen:20 16813ms
+Sat May  2 14:30:47.448 [DataFileSync] flushing mmaps took 10626ms  for 4 files
+Sat May  2 14:33:16.894 [DataFileSync] flushing mmaps took 40071ms  for 4 files
+Sat May  2 14:34:25.590 [TTLMonitor] query test.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:2 keyUpdates:0 locks(micros) r:160908186 nreturned:0 reslen:20 160908ms
+Sat May  2 14:35:28.372 [TTLMonitor] query test.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:2 keyUpdates:0 locks(micros) r:2778542 nreturned:0 reslen:20 2778ms
+Sat May  2 14:37:19.916 [TTLMonitor] query local.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:0 keyUpdates:0 locks(micros) r:51543433 nreturned:0 reslen:20 51543ms
+Sat May  2 14:37:20.415 [TTLMonitor] query test.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:2 keyUpdates:0 locks(micros) r:498660 nreturned:0 reslen:20 498ms
+Sat May  2 14:39:23.028 [TTLMonitor] query test.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:2 keyUpdates:0 locks(micros) r:2611528 nreturned:0 reslen:20 2611ms
+Sat May  2 14:41:02.372 [PeriodicTask::Runner] task: DBConnectionPool-cleaner took: 447ms
+Sat May  2 14:44:51.422 [PeriodicTask::Runner] task: DBConnectionPool-cleaner took: 16291ms
+Sat May  2 14:44:51.507 [DataFileSync] flushing mmaps took 162243ms  for 4 files

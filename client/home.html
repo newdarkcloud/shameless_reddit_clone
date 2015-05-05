@@ -1,0 +1,22 @@
+<!--<style>body{background-image: url(http://i3.kym-cdn.com/photos/images/facebook/000/217/040/48ACD.png);}</style>-->
+<h1>
+  Leddit NICE-Stack Shameless Reddit Clone
+</h1>
+<hr>
+<label>Username</label>
+<input type="text" ng-model="username" class="username"></input>
+<br>
+<label>Comment/Post Text</label>
+<input type="text" ng-model="text" class="new-post-text"></input>
+<br>
+<button ng-click="addPost()" type="button" class="btn btn-std">Create new post</button>
+<hr>
+<ul>
+  <li ng-repeat="post in posts | orderBy : '-upvotes' "> 
+    <span class="upvotes">{{post.upvotes}}</span>
+	{{post.text}} by {{post.username}} 
+    <span class="upvote" ng-click="increaseUpvotes(post)">+upvote this+</span>
+	<span class="downvote" ng-click="decreaseUpvotes(post)">-downvote this-</span>
+    <a href="#topic/{{post._id}}">comments</a>
+  </li>
+</ul>

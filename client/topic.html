@@ -1,0 +1,19 @@
+<h1 class="topic">
+  {{topic.text}}
+</h1>
+<h3><a href="#/">Back to main page</a></h3>
+<hr>
+<label>Username</label>
+<input type="text" ng-model="username" class="username"></input>
+<br>
+<input type="text" ng-model="text" class="new-post-text"></input>
+<button ng-click="addComment()" type="button" class="btn btn-std">Create new comment</button>
+<hr>
+<ul>
+  <li ng-repeat="comment in comments | orderBy : '-upvotes' ">
+	<span class="upvotes">{{comment.upvotes}}</span> 
+	{{comment.text}} by {{comment.username}}
+  	<span class="upvote" ng-click="increaseCommentUpvotes(comment)">+Upvote This+</span>
+  	<span class="downvote" ng-click="decreaseCommentUpvotes(comment)">-Downvote This-</span>
+  </li>
+</ul>
